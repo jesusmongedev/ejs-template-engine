@@ -1,0 +1,15 @@
+<%- include('components/start.ejs') %> 
+    <link rel="stylesheet" href="/css/user.css">
+    </head>
+<%- include('components/navigation.ejs') %> 
+    <h1>Users collection:</h1>
+    <% if (users.length > 0) { %> 
+        <%  users.map(username => { %> 
+            <ol>
+                <li> <%= username %>  </li>
+            </ol>
+        <% }) %> 
+    <% } else { %> 
+        <h2>No users availables</h2>
+    <% } %> 
+<%- include('components/end.ejs') %> 

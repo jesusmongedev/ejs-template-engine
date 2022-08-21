@@ -1,0 +1,12 @@
+<%- include('components/start.ejs') %> 
+</head>
+
+<%- include('components/navigation.ejs') %> 
+    <h1>Add User Form</h1>
+    <form action="/add-user" method="post">
+        <input type="text" name="userName" required autocomplete="off" autofocus>
+        <button type="submit">
+            Submit
+        </button>
+    </form>
+<%- include('components/end.ejs') %> 

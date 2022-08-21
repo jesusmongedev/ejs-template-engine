@@ -1,0 +1,16 @@
+h2 {
+    text-align: center;
+    color: #FFC090;
+}
+
+ol {
+    text-transform: uppercase;
+    margin-left: 10em;
+}
+
+ol li {
+    list-style-type: circle;
+    margin-bottom: 0.25rem;
+    color: #7FB77E;
+    font-weight: bold;
+}
